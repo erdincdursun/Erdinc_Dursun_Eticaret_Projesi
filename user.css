@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+
+:root {
+    --green: hsl(107, 26%, 68%);
+    --greenV2: #5e7757;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', "Marck Script", sans-serif;
+    outline: none;
+    border: none;
+    text-decoration: none;
+
+}
+
+
+
+body {
+    background-image: url("/Images/pexels-somben-chea-1266130.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+
+}
+
+.login-container {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 0 15px;
+}
+
+span {
+    color: #fff;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+}
+
+#login {
+    color: #fff;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+}
+
+.input-field {
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    height: 45px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    color: #fff;
+    padding: 0 0 0 42px;
+    background: rgba(255, 255, 255, .1);
+}
+
+i {
+    position: relative;
+    top: -31px;
+    left: 17px;
+    color: #fff;
+    font-size: 15px;
+}
+
+
+.submit {
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    height: 45px;
+    outline: none;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+    transition: .3s;
+}
+
+.submit:hover {
+    box-shadow: 1px 5px 7px 1px rgba(37, 145, 55, 0.2);
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: small;
+    color: #fff;
+    margin-top: 10px;
+
+}
+
+.left-check {
+    display: flex;
+
+}
+
+label a {
+    color: #fff;
+    text-decoration: none;
+}

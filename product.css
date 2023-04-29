@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+
+
+/* Navbar */
+.navcontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #A1C298;
+    padding: 15px;
+}
+
+.logo {
+    text-decoration: none;
+    font-family: 'Marck Script';
+    color: #fff;
+    margin-left: 80px;
+    font-size: 2rem;
+}
+
+nav a {
+    text-decoration: none;
+    font-family: 'Marck Script';
+    color: #fff;
+    font-size: 1.6rem;
+    margin: 20px;
+}
+
+nav a:hover {
+    color: #5e7757;
+}
+
+.headerp-icons a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin-right: 80px;
+}
+
+.headerp-icons a:hover {
+    color: #5e7757;
+}
+
+
+
+
+/* footer */
+.footer-end {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 90px;
+    background-color: #A1C298;
+    padding: 5px;
+    color: #fff;
+}
+
+.social {
+    margin-top: 15px;
+}
+
+.footer-end .social a {
+
+    color: #fff;
+    margin-left: 10px;
+
+
+
+}
+
+.footer-end .social p {
+
+    font-size: 1rem;
+}
