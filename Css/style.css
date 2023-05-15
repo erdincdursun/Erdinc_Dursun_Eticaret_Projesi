@@ -297,10 +297,10 @@ header .logo {
     height: 4rem;
     line-height: 4rem;
     font-size: 1.5rem;
-    width: 80%;
+    width: 72%;
     background-color: #333;
     color: #fff;
-    margin-left: 15px;
+    margin-left: 4.4rem;
 }
 
 
@@ -446,8 +446,6 @@ header .logo {
 
 
 
-
-
 /* media queries */
 @media(max-width:991px) {
     html {
@@ -464,6 +462,28 @@ header .logo {
 
     .home {
         background-position: left;
+    }
+
+    .products .box-container .box .image .icons a {
+        height: 4rem;
+        line-height: 4rem;
+        font-size: 1.5rem;
+        width: 55%;
+        background-color: #333;
+        color: #fff;
+        margin-left: 8rem;
+    }
+}
+
+@media(max-width:869px) {
+    .products .box-container .box .image .icons a {
+        height: 4rem;
+        line-height: 4rem;
+        font-size: 1.5rem;
+        width: 40%;
+        background-color: #333;
+        color: #fff;
+        margin-left: 15px;
     }
 }
 
@@ -483,6 +503,7 @@ header .logo {
         color: #5e7757;
         border-radius: 0%;
         clip-path: polygon(0 0, 100% 0, 0 0);
+
     }
 
     #toggler:checked~.navbar {
@@ -515,6 +536,16 @@ header .logo {
     .icons span {
 
         font-size: 1.3rem;
+    }
+
+    .products .box-container .box .image .icons a {
+        height: 4rem;
+        line-height: 4rem;
+        font-size: 1.5rem;
+        width: 42%;
+        background-color: #333;
+        color: #fff;
+        margin-left: 15rem;
     }
 
 }
